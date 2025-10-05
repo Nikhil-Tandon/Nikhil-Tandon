@@ -397,7 +397,7 @@ const portfolioGalleries = {
     title: 'Wedding Ceremonies',
     description: 'Capturing beautiful wedding moments with professional color grading and retouching.',
     images: [
-        { src: 'assets/hero-wedding.jpg', title: 'Wedding Ceremony', description: 'Professional Retouching' },
+        { src: 'hero-wedding.jpg', title: 'Wedding Ceremony', description: 'Professional Retouching' },
         { src: 'assets/prewedding-1.jpg', title: 'Wedding Portrait', description: 'Professional Retouching' },
         { src: 'assets/prewedding-2.jpg', title: 'Wedding Details', description: 'Professional Retouching' },
         { src: 'assets/DSC_4284.jpg', title: 'Wedding Moment', description: 'Professional Retouching' },
@@ -413,7 +413,7 @@ const portfolioGalleries = {
     images: [
         { src: 'assets/prewedding-1.jpg', title: 'Romantic Pre-Wedding', description: 'Professional Retouching' },
         { src: 'assets/prewedding-2.jpg', title: 'Cultural Moments', description: 'Professional Retouching' },
-        { src: 'assets/hero-wedding.jpg', title: 'Pre-Wedding Shoot', description: 'Professional Retouching' },
+        { src: 'hero-wedding.jpg', title: 'Pre-Wedding Shoot', description: 'Professional Retouching' },
         { src: 'assets/DSC07068.jpg', title: 'Golden Hour', description: 'Professional Retouching' },
         { src: 'assets/DSC08097.jpg', title: 'Intimate Portrait', description: 'Professional Retouching' },
         { src: 'assets/DSC08104.jpg', title: 'Nature Walk', description: 'Professional Retouching' },
@@ -426,7 +426,7 @@ const portfolioGalleries = {
         title: 'Special Events',
         description: 'Corporate events, celebrations, and special occasions with professional photo editing.',
         images: [
-            { src: 'assets/hero-wedding.jpg', title: 'Corporate Event', description: 'Professional Retouching' },
+            { src: 'hero-wedding.jpg', title: 'Corporate Event', description: 'Professional Retouching' },
             { src: 'assets/prewedding-1.jpg', title: 'Birthday Celebration', description: 'Professional Retouching' },
             { src: 'assets/prewedding-2.jpg', title: 'Anniversary Party', description: 'Professional Retouching' }
         ]
@@ -436,7 +436,7 @@ const portfolioGalleries = {
         description: 'Individual and family portraits with professional retouching and color enhancement.',
         images: [
             { src: 'assets/prewedding-2.jpg', title: 'Portrait Session', description: 'Professional Retouching' },
-            { src: 'assets/hero-wedding.jpg', title: 'Family Portrait', description: 'Professional Retouching' },
+            { src: 'hero-wedding.jpg', title: 'Family Portrait', description: 'Professional Retouching' },
             { src: 'assets/prewedding-1.jpg', title: 'Individual Portrait', description: 'Professional Retouching' }
         ]
     }
