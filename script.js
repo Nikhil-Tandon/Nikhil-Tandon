@@ -393,54 +393,61 @@ window.addEventListener('error', function(e) {
 
 // Portfolio Gallery Data - Treat each category as a folder
 const portfolioGalleries = {
-    'weddings': {
+  'weddings': {
     title: 'Wedding Ceremonies',
     description: 'Capturing beautiful wedding moments with professional color grading and retouching.',
     images: [
-        { src: 'hero-wedding.jpg', title: 'Wedding Ceremony', description: 'Professional Retouching' },
-        { src: 'assets/prewedding-1.jpg', title: 'Wedding Portrait', description: 'Professional Retouching' },
-        { src: 'assets/prewedding-2.jpg', title: 'Wedding Details', description: 'Professional Retouching' },
-        { src: 'assets/DSC_4284.jpg', title: 'Wedding Moment', description: 'Professional Retouching' },
-        { src: 'assets/DSC_4349.jpg', title: 'Ceremony Details', description: 'Professional Retouching' },
-        { src: 'assets/DSC_4478.jpg', title: 'Candid Smile', description: 'Professional Retouching' },
-        { src: 'assets/DSC05057.jpg', title: 'Wedding Couple', description: 'Professional Retouching' }
+      { src: 'hero-wedding.jpg', title: 'Wedding Ceremony', description: 'Professional Retouching' },
+      { src: '1.JPG', title: 'Wedding Portrait', description: 'Professional Retouching' },
+      { src: '2.JPG', title: 'Wedding Details', description: 'Professional Retouching' },
+      { src: '3.jpg', title: 'Wedding Moment', description: 'Professional Retouching' },
+      { src: '4.jpg', title: 'Ceremony Details', description: 'Professional Retouching' },
+      { src: '5.jpg', title: 'Candid Smile', description: 'Professional Retouching' },
+      { src: '6.jpg', title: 'Wedding Couple', description: 'Professional Retouching' }
     ]
-},
+  },
 
-'pre-wedding': {
+  'pre-wedding': {
     title: 'Pre-Wedding Shoots',
     description: 'Romantic pre-wedding moments captured with artistic flair and professional editing.',
     images: [
-        { src: 'assets/prewedding-1.jpg', title: 'Romantic Pre-Wedding', description: 'Professional Retouching' },
-        { src: 'assets/prewedding-2.jpg', title: 'Cultural Moments', description: 'Professional Retouching' },
-        { src: 'hero-wedding.jpg', title: 'Pre-Wedding Shoot', description: 'Professional Retouching' },
-        { src: 'assets/DSC07068.jpg', title: 'Golden Hour', description: 'Professional Retouching' },
-        { src: 'assets/DSC08097.jpg', title: 'Intimate Portrait', description: 'Professional Retouching' },
-        { src: 'assets/DSC08104.jpg', title: 'Nature Walk', description: 'Professional Retouching' },
-        { src: 'assets/prewedding-1.jpg', title: 'Classic Pose', description: 'Professional Retouching' },
-        { src: 'assets/prewedding-2.jpg', title: 'Stylish Couple', description: 'Professional Retouching' }
+      { src: '1.JPG', title: 'Romantic Pre-Wedding', description: 'Professional Retouching' },
+      { src: '2.JPG', title: 'Cultural Moments', description: 'Professional Retouching' },
+      { src: 'hero-wedding.jpg', title: 'Pre-Wedding Shoot', description: 'Professional Retouching' },
+      { src: '3.jpg', title: 'Golden Hour', description: 'Professional Retouching' },
+      { src: '4.jpg', title: 'Intimate Portrait', description: 'Professional Retouching' },
+      { src: '5.jpg', title: 'Nature Walk', description: 'Professional Retouching' },
+      { src: '6.jpg', title: 'Classic Pose', description: 'Professional Retouching' },
+      { src: '7.jpg', title: 'Stylish Couple', description: 'Professional Retouching' }
     ]
-}
-,
-    'events': {
-        title: 'Special Events',
-        description: 'Corporate events, celebrations, and special occasions with professional photo editing.',
-        images: [
-            { src: 'hero-wedding.jpg', title: 'Corporate Event', description: 'Professional Retouching' },
-            { src: 'assets/prewedding-1.jpg', title: 'Birthday Celebration', description: 'Professional Retouching' },
-            { src: 'assets/prewedding-2.jpg', title: 'Anniversary Party', description: 'Professional Retouching' }
-        ]
-    },
-    'portraits': {
-        title: 'Portrait Sessions',
-        description: 'Individual and family portraits with professional retouching and color enhancement.',
-        images: [
-            { src: 'assets/prewedding-2.jpg', title: 'Portrait Session', description: 'Professional Retouching' },
-            { src: 'hero-wedding.jpg', title: 'Family Portrait', description: 'Professional Retouching' },
-            { src: 'assets/prewedding-1.jpg', title: 'Individual Portrait', description: 'Professional Retouching' }
-        ]
-    }
+  },
+
+  'events': {
+    title: 'Special Events',
+    description: 'Corporate events, celebrations, and special occasions with professional photo editing.',
+    images: [
+      { src: 'hero-wedding.jpg', title: 'Corporate Event', description: 'Professional Retouching' },
+      { src: '1.JPG', title: 'Birthday Celebration', description: 'Professional Retouching' },
+      { src: '2.JPG', title: 'Anniversary Party', description: 'Professional Retouching' },
+      { src: '3.jpg', title: 'Charity Gala', description: 'Professional Retouching' },
+      { src: '4.jpg', title: 'Award Ceremony', description: 'Professional Retouching' }
+    ]
+  },
+
+  'portraits': {
+    title: 'Portrait Sessions',
+    description: 'Individual and family portraits with professional retouching and color enhancement.',
+    images: [
+      { src: '2.JPG', title: 'Portrait Session', description: 'Professional Retouching' },
+      { src: 'hero-wedding.jpg', title: 'Family Portrait', description: 'Professional Retouching' },
+      { src: '1.JPG', title: 'Individual Portrait', description: 'Professional Retouching' },
+      { src: '5.jpg', title: 'Creative Lighting', description: 'Professional Retouching' },
+      { src: '6.jpg', title: 'Studio Shoot', description: 'Professional Retouching' },
+      { src: '7.jpg', title: 'Black & White Portrait', description: 'Professional Retouching' }
+    ]
+  }
 };
+
 
 // Open Gallery Modal
 function openGalleryModal(category) {
